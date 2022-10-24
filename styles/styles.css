@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* цвет фона */
+
+body { 
+	background-color: #1d3768;
+	background-image: 
+	url(../images/bck_top.jpg), 
+	url(../images/bck_repeat_bottom.jpg), 
+	url(../images/bck_repeat_top.jpg), 
+	url(../images/right.jpg), 
+	url(../images/left.jpg);
+	background-repeat: no-repeat, repeat-x, repeat-x, no-repeat, no-repeat;
+	background-position: top center, bottom center, 3.6px -3px, center right, center left;
+ }
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* шрифты */
+p {
+	margin-top: 20px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+p.unit {
+	color: #de8a42;
+	margin-top: 0px;
+}
+nav {
+	font-family: BatakCondensedITCStdBold;
+	font-size: 18px;
+	line-height: 19px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: BatakCondensedITCStdBold;
+}
+
+/* ссылки и навигация */
+header {
+	padding-top: 140px;
+	display: block;
+}
+aside {
+	float: left;
+	display: block;
+	width: 200px;
+	height: 232.5px;
+
+	margin-top: -5px;
+	margin-left: 4.9px;
+
+}
+nav {
+	display: block;
+	float: right;
+	width: 755px;
+	padding-left: 350px;
+	padding-right: 0px;
+    display:inline-block;
+    transform:scale(1.1,1); /* W3C */
+    letter-spacing: .5px;
+}
+nav a {
+	text-decoration: none;
+	color: #de8a42;
+	padding-right: 13px;
+
+}
+nav a:hover {
+	color: #fff;
+}
+
+/* секции */
+section {
+	padding-top: 80px;
+}
+section p {
+	width: 640px;
+	color: #fff;
+}
+section img {
+	margin: 20px 0;
+}
+h2 {
+	height: 100px;
+	color: #f79639;
+	background-image: url(../images/burger.jpg);
+	background-repeat: no-repeat;
+	background-position: 200px 5px;
+	background-size: 11%;
+	padding-top: 10px;
+	padding-left: 280px;
+	font-size: 45px;
+	line-height: 35px;
+}
+h2.stretch {
+	width: 400px;
+    display:inline-block;
+    transform:scale(1.1,1); /* W3C */	
+}
+div {
+	width: 650px;
+
+}
+h3 {
+	color: #fff;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-stretch: expanded;
+	font-style: italic;
+	padding: 50px 0;
+	background-image: url(../images/spiral.jpg);
+	background-repeat: no-repeat;
+	background-position: 70px;
+}
+
+/* отступы */
+section p, section img, section div {
+	margin-left: 200px;
+}
+
+/* подвал */
+footer {
+	padding-top: 100px;
+	padding-bottom: 180px;
+	display: block;
+}
+/* отступы */
+footer .sprunk {
+	padding-left: 150px;
+
+}
+
+h4 {
+	padding-top: 10px;
+	padding-left: 50px;
+	text-align: center;
+	color: #db8842;
+	font-size: 20px;
+    display: block;
+    transform:scale(1.3,1); /* W3C */
+    letter-spacing: .5px;
+}
+h5 {
+	color: #f79639;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	padding-left: 150px;
+	font-size: 35px;
+	line-height: 35px;
+}
+p.menu {
+	margin: 0;
+	padding: 0;
+}
+.free {
+	margin-top: 100px;
+	background-image: url(../images/meal1.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px -15px;
+}
+.torpedo {
+	margin-top: 100px;
+	background-image: url(../images/torpedo.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px -15px;
+}
+.heart {
+	margin-top: 110px;
+	background-image: url(../images/heart.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px -1px;
+}
+.bleeder {
+	margin-top: 110px;
+	background-image: url(../images/bleeder.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px -5px;
+}
+.meal {
+	padding-left: 400px;
+}
+
+.soon {
+	color: #fff;
+	margin-bottom: 20px;
+}
+.option {
+	padding-left: 200px;
+	padding-top: 15px;
+
+}
+
+/* границы */
+section img {
+	border: solid 3px #bd2029;
+	padding-bottom: 0;
+	margin-bottom: -5px;
+}
+div.splat {
+	height: 96px;
+	width: 125px;
+	background-image: url(../images/border_attachment.jpg);
+	background-repeat: repeat;
+	background-position: 125px 196px;
+}
+img.sprunk {
+	border: none;
+}
+img.meal {
+	border: none;
+}
+
+img.float {
+	margin: 0;
+	padding: 0;
+	width: 440px;
+	height: 221px;
+	float: right;
+}
+
+.quote{
+	padding-top: 23px;
+	padding-bottom: 23px;
+	display: block;
+	color: #fff;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+span {
+	color: #f79639;
+}
+
+.slugger {
+	display: inline-block;
+}
+h5.slugger {
+	padding-left: 200px;
+	margin-right: 15px;
+}
